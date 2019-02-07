@@ -41,6 +41,20 @@ import TextInput from 'rax-textinput';
 | onChange           | Function |      | 文本框内容变化时调用此函数（用户输入完成时触发。通常在 blur 事件之后） |
 | onInput            | Function |      | 文本框输入内容时调用此函数                            |
 
+### keyboardType 对应展现形式
+
+* default： text
+* ascii-capable： text
+* numbers-and-punctuation： number
+* url： url
+* number-pad： number
+* phone-pad： tel
+* name-phone-pad： text
+* email-address： email
+* decimal-pad： number
+* twitter： text
+* web-search： search
+* numeric： number
 
 ## 方法
 
